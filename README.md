@@ -5,6 +5,9 @@ This caused the proftpd server to stop working.
  
 You can use this this script OR install Ubuntu 20 and copy /usr/sbin/ftpasswd to your older Ubuntu servers.
 
+Blog post related to this tool.
+https://qsandbox.com/830
+
 # Installation
 
 Login as root
