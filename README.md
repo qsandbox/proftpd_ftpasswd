@@ -25,9 +25,11 @@ wget 'https://raw.githubusercontent.com/qsandbox/proftpd_ftpasswd/master/ftpassw
 inspect the file (Perl script). You should always do that when downloading stuff from the Internet.
 
 Set permissions
+
 chmod 0755 ftpasswd
 
 Move the file. DID YOU MAKE A BACKUP?
+
 mv ftpasswd /usr/sbin/ftpasswd
 
 # Support
