@@ -22,6 +22,8 @@ Download the ftpasswd file from this repo OR install Ubuntu 20 and then copy /us
 
 wget 'https://raw.githubusercontent.com/qsandbox/proftpd_ftpasswd/master/ftpasswd'
 
+inspect the file (Perl script). You should always do that when downloading stuff from the Internet.
+
 Set permissions
 chmod 0755 ftpasswd
 
