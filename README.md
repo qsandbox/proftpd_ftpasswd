@@ -2,6 +2,9 @@
 At https://qSandbox.com we had a problem that ProFTPD server kept stopping from time to time.
 The reason was that ftpasswd script was failing to restore the password and group file permissions.
 This caused the proftpd server to stop working.
+
+Here's a ticket from proftpd repo: ftpasswd fails to restore password file permissions in some cases #898
+https://github.com/proftpd/proftpd/issues/898
  
 You can use this this script OR install Ubuntu 20 and copy /usr/sbin/ftpasswd to your older Ubuntu servers.
 
